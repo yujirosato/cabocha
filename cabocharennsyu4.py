@@ -63,8 +63,8 @@ def get_2_words(line):
 if __name__ == '__main__' :
 
 
-    line = 'このホテルはとても綺麗です。'
-#    line = input("文章は？")
+    #line = 'このホテルはとても綺麗です。'
+    line = input("文章は？")
     line = line.split("。")
 
     #文章ごとに係り受け解析
